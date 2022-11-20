@@ -1,0 +1,399 @@
+body{
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Oswald:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin: 44px auto;
+    max-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+        font-size: 2vw;
+        font-weight: 800;
+
+    }
+    .menu a{
+        margin-right: 40px;
+        font-size: 1.2vw;
+        text-decoration: none;
+        color: black;
+        
+    }
+    .sign-up{
+         max-width: 134px;
+         height: 62px;
+        background: black;
+        border-radius: 7px;
+        color: white;
+        font-size: 24px;
+    }
+    
+
+
+    
+}
+
+.block{
+    width: 90%;
+    
+    
+    background: #F4F6F5;
+    margin: 0 auto;
+    border-radius: 59px;
+     
+
+    .left-context{
+        padding: 30px 80px;
+        float: left;
+    }
+
+    .context{
+        font-size: 5vw;
+        font-weight: 800;
+        
+        }
+         .lets{
+           width: 465px;
+           height: 112px;
+           background: white;
+           
+         }
+         .un{
+            width: 483px;
+            height: 124px;
+            background: #EBD96B;
+         }
+
+    .text{
+        margin-top:30px ;
+        font-size: 1.8vw;
+        
+    }
+
+    .bro{
+        margin-top:60px ;
+        display: flex;
+        align-items: center;
+    }
+    .bro img{
+        width: 30%;
+    }
+    .shop{
+        margin-left: 50px;
+        width: 30%;
+        height: 82px;
+        background: black;
+        border-radius: 10px;
+        color: white;
+        font-size: 1.5vw;
+    }
+
+     .right-cont img{
+      width: 45%;
+      height: 850px;
+      
+     }
+    
+}
+
+.block2{
+    width: 100%;
+    height: 186px;
+    background: #EBD96B;
+    margin: 60px auto;
+
+.brends{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.brends img{
+    margin-top: 40px;
+    width: 10%;
+}
+
+}
+
+.block3{
+    width: 90%;
+    margin: 0 auto;
+    
+
+  h1{
+    font-size: 3vw;
+    font-weight: 800;
+    margin: 0 30px;
+    
+    }
+
+    .lines-img{
+        
+        display: flex;
+        justify-content: space-around;
+        margin-top:50px;
+    }
+
+    .lines-img img{
+        border-radius: 20px;
+        overflow: hidden;
+        width: 100%;
+        
+        
+    }
+    
+   
+    .t{
+        font-size: 32px;
+        font-weight: 600;
+    }
+     #a{
+        color: #7F7F7F;
+        text-decoration: none;
+        font-size: 24px;
+    }
+
+}
+
+.block4{
+    width: 100%;
+    
+    background: #efd52a;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    
+
+    .block-imeg img{
+        width: 100%;
+        
+        
+    }
+
+    .block-text{
+        width: 50%;
+        
+        
+         
+        .spend{
+            font-weight: 500;
+            font-size: 2vw;
+        }
+
+        .jun{
+           
+            font-size: 2vw;
+            font-weight: 800;
+        }
+        .pay{
+            font-size: 5vw;
+            font-weight: 900;
+            margin: 0;
+
+            #pay-bord {
+                background: white;
+                
+                }
+                
+        }
+
+        .shop-now{
+            width: 265px;
+            height: 95px;
+            background: black;
+            color: white;
+            font-size: 27px;
+            border-radius: 8.14px;
+        }
+    }
+}
+
+.block5{
+    width: 90%;
+    
+    margin: 200px auto;
+
+
+    h2{
+        font-size: 48px;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .line-bl{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+        
+    }
+    .line-bl img{
+        border-radius: 20px;
+        overflow: hidden;
+        width: 100%;
+    }
+    .line-bl p{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .line-bl a{
+        text-decoration: none;
+        font-size: 24px;
+        color: #7F7F7F;
+    }
+
+}
+
+.block6{
+    width: 100%;
+    height: 623px;
+    background: #E5C643;
+
+    h3{
+       text-align: center;
+       padding-top: 100px;
+       font-size: 55px;
+       color: white;
+           }
+
+           #cont{
+            text-align: center;
+            font-size: 32px;
+            color: white;
+
+           }
+         
+
+           .mail{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           }
+
+
+         .input-mail{
+            width: 374px;
+            height: 57px;
+            font-size: 24px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            
+         }
+
+         .send{
+            width: 101px;
+            height: 47px;
+            margin-left: 10px;
+            background: black;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+            
+         }
+      
+
+
+
+}
+
+.block7{
+    width: 100%;
+    
+    background: black;
+
+    .back-block{
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+
+
+        .on-bar{
+            
+             padding: 100px;
+
+
+            h4{
+                margin: 0;
+                color: white;
+                font-size: 2vw;
+                font-weight: 800;
+            }
+    
+            #stil{
+                color: #7F7F7F;
+                font-size: 1.3vw;
+    
+            }
+    
+        }
+        .on-bar img{
+            width: 10%;
+        }
+
+       .to-bar{
+            padding: 100px;
+        display: flex;
+        
+
+        #stek{
+            list-style: none;
+            font-size: 1.5vw;
+            
+         
+        
+          }
+       #stek li{
+
+           color: #7F7F7F;
+           margin-top: 20px;
+        }
+
+        #stek1{
+           list-style: none;
+            font-size: 1.5vw;
+            color: #7F7F7F;
+            
+        }
+        #stek1 li {
+           margin-top: 20px;
+        }
+
+        #stek2{
+           list-style: none;
+           font-size: 1.5vw;
+           color: #7F7F7F;
+        }
+        #stek2 li{
+           margin-top: 20px;
+        }
+       }
+
+       
+
+
+           
+
+    }
+    
+    
+
+
+
+
+
+}
+
+
+
+
